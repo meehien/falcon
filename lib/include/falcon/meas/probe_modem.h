@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 2019 Robert Falkenberg.
  *
- * This file is part of FALCON 
+ * This file is part of FALCON
  * (see https://github.com/falkenber9/falcon).
  *
  * This program is free software: you can redistribute it and/or modify
@@ -19,12 +19,13 @@
  * and at http://www.gnu.org/licenses/.
  */
 #pragma once
+#include "cmnalib/at_sierra_wireless_em7565.h"
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-#include "cmnalib/at_sierra_wireless_em7565.h"
+
 
 //#define DEFAULT_URL "mptcp1.pi21.de:5002"
 #define DEFAULT_URL "www.kn.e-technik.tu-dortmund.de"
